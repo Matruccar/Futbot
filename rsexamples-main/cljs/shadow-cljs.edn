@@ -1,0 +1,15 @@
+{:source-paths ["src" "test"]
+
+ :dependencies [[binaryage/oops "0.7.1"]]
+
+ :nrepl {:port 9000
+         :middleware []}
+
+ :builds {:app {:target :node-script
+                :main rsteam.core/main
+                :output-to "out/rsteam/main.js"
+                :compiler-options {:optimizations :advanced
+                                   :infer-externs :auto}}
+          :test {:target :node-test
+                 :output-to "out/rsteam/tests.js"
+                 :autorun true}}}

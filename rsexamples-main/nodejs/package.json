@@ -1,0 +1,25 @@
+{
+  "name": "rsexample",
+  "version": "1.0.0",
+  "description": "To execute the project you have to specify the server port as argument:",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GIRA/rsexamples.git"
+  },
+  "author": "Ricardo Moran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GIRA/rsexamples/issues"
+  },
+  "homepage": "https://github.com/GIRA/rsexamples#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
